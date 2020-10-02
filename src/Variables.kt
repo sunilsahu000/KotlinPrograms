@@ -21,7 +21,7 @@
 
         var car = "Iron maiden"
         car = "Maruti"
-        println("Printing car "+car)
+        println("Printing car${car}")
 
         // declare variable and assign the value later
         val carName: String
@@ -79,7 +79,7 @@
            Hey Kirito. Daijobu dayo? 
         """
 
-        println("Print string : "+spanMultipleLines)
+        println("Print string :${spanMultipleLines}")
 
         // kotlin also supports string interpolation or string templates
         val accountBalance = 200
